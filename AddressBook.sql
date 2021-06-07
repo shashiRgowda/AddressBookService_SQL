@@ -31,3 +31,7 @@ select * from AddressBook
 Delete from AddressBook where firstname = 'Shashi'
 
 select * from AddressBook where city = 'Bengalore' and  state = 'Karnataka'
+
+select count(city) as 'count' from AddressBook where city = 'bengalore' 
+
+select count(firstname) as 'count' from AddressBook where state = 'Karnataka' 
