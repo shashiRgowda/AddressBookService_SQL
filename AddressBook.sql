@@ -35,3 +35,6 @@ select * from AddressBook where city = 'Bengalore' and  state = 'Karnataka'
 select count(city) as 'count' from AddressBook where city = 'bengalore' 
 
 select count(firstname) as 'count' from AddressBook where state = 'Karnataka' 
+
+select * FROM AddressBook where city = 'KGF' order by (firstname)
+
