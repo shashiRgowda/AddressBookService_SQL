@@ -26,3 +26,8 @@ insert into AddressBook values
 update AddressBook set zip = 563101 where firstname = 'shashi'
 
 select * from AddressBook
+
+
+Delete from AddressBook where firstname = 'Shashi'
+
+select * from AddressBook where city = 'Bengalore' and  state = 'Karnataka'
