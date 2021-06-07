@@ -38,3 +38,12 @@ select count(firstname) as 'count' from AddressBook where state = 'Karnataka'
 
 select * FROM AddressBook where city = 'KGF' order by (firstname)
 
+
+
+alter table AddressBook Add AddressBookname varchar(20), after email;
+alter table AddressBook Add AddressBooktype varchar(20), after AddressBookName;
+update addressBook set AddressBookname = 'AddressBook 1' where firstname = 'Shashi';
+update addressBook set AddressBookType = 'Friends' where firstname = 'Shashi';
+update addressBook set AddressBookType = 'Friends' where firstname = 'Shashi';
+update addressBook set AddressBookname = 'AddressBook 2' where firstname = 'Sohan';
+update addressBook set AddressBookType = 'Family' where firstname = 'Sohan';
