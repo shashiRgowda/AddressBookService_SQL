@@ -47,3 +47,9 @@ update addressBook set AddressBookType = 'Friends' where firstname = 'Shashi';
 update addressBook set AddressBookType = 'Friends' where firstname = 'Shashi';
 update addressBook set AddressBookname = 'AddressBook 2' where firstname = 'Sohan';
 update addressBook set AddressBookType = 'Family' where firstname = 'Sohan';
+
+select count (Type) as 'Family' from AddressBook where Type = 'family'
+select count (Type) as 'friends' from AddressBook where Type = 'friends'
+select count (Type) as 'profession' from AddressBook where Type = 'frofession'
+
+select * from AddressBook
